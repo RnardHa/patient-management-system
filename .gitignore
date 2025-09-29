@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Environment-dependent path to Maven home directory
@@ -8,3 +8,40 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Build artifacts
+target/
+build/
+*.jar
+*.war
+*.ear
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+# IDE files (IntelliJ IDEA)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Configuration files (if they contain sensitive data)
+!src/main/resources/application.properties # Include this if you want to track application.properties
+!src/main/resources/application.yml # Include this if you want to track application.yml
+application-*.properties
+application-*.yml
+*.properties.local
+*.yml.local
+
+# Spring Boot specific (if using a separate directory for generated code)
+generated-sources/
